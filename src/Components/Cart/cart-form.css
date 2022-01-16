@@ -1,0 +1,41 @@
+.cart-form {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+.cart-form div {
+    margin: 10px;
+} 
+.cart-form label {
+    display: block;
+} 
+.cart-form__action button {
+    cursor: pointer;
+   background:#8a2b06 ;
+   border: none;
+   border-radius: 25px;
+   color: #fff;
+   padding: 10px 20px;
+   font-size: 18px;
+   margin-right: 10px;
+}  
+.cart-form__action button:nth-of-type(1) {
+    background: transparent;
+    border:#8a2b06 solid 1px ;
+    color: #8a2b06;
+}
+.cart-form__input-div {
+    width: 40%;
+    
+}
+.cart-form__input-div input {
+    width: 90%;
+    height: 35px;
+    padding-left: 5px;
+    outline: none;
+}
+.cart-form__input-div.invalid input {
+    background: rgba(250, 128, 114, 0.699);
+    border: solid 1px salmon;
+}
